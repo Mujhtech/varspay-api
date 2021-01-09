@@ -1,0 +1,522 @@
+[15-Sep-2020 21:00:00 UTC] PHP Fatal error:  Cannot redeclare App\Lib\Providus::auth() in /home/zomwakzn/Varspay.com/app/Lib/Providus.php on line 81
+[15-Sep-2020 21:00:30 UTC] PHP Fatal error:  Cannot redeclare App\Lib\Providus::auth() in /home/zomwakzn/Varspay.com/app/Lib/Providus.php on line 81
+[17-Sep-2020 18:12:19 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/zomwakzn/Varspay.com/app/Lib/SimpleXLSX.php on line 4
+[20-Sep-2020 21:59:02 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\UserController, because the name is already in use in /home/zomwakzn/Varspay.com/app/Http/Controllers/API/UserController.php on line 81
+[21-Sep-2020 07:56:07 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:07 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:13 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:13 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:14 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:14 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:18 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:18 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:23 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:23 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:28 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:28 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:32 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:32 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:38 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:38 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:39 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:39 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:39 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:39 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:43 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:43 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:47 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:47 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:52 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:52 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:57 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:57 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:58 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:56:58 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:57:03 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:57:03 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:57:08 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:57:08 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:57:12 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:57:12 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:57:18 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:57:18 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:57:23 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/zomwakzn/...', 35, Array)
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home/zomwakzn/Varspay.com/routes/api.php(23): Illuminate\Routing\Rout in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[21-Sep-2020 07:57:23 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[22-Sep-2020 09:56:07 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to App\Exceptions\Handler::handleApiException() must be an instance of App\Exceptions\Exception, instance of TypeError given, called in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 55 and defined in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php:65
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php(55): App\Exceptions\Handler->handleApiException(Object(Illuminate\Http\Request), Object(TypeError))
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#4 {main}
+  thrown in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 65
+[22-Sep-2020 09:56:40 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to App\Exceptions\Handler::handleApiException() must be an instance of App\Exceptions\Exception, instance of TypeError given, called in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 55 and defined in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php:65
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php(55): App\Exceptions\Handler->handleApiException(Object(Illuminate\Http\Request), Object(TypeError))
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#4 {main}
+  thrown in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 65
+[22-Sep-2020 09:57:09 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to App\Exceptions\Handler::handleApiException() must be an instance of App\Exceptions\Exception, instance of TypeError given, called in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 55 and defined in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php:65
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php(55): App\Exceptions\Handler->handleApiException(Object(Illuminate\Http\Request), Object(TypeError))
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#4 {main}
+  thrown in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 65
+[22-Sep-2020 09:57:56 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to App\Exceptions\Handler::handleApiException() must be an instance of App\Exceptions\Exception, instance of TypeError given, called in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 55 and defined in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php:65
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php(55): App\Exceptions\Handler->handleApiException(Object(Illuminate\Http\Request), Object(TypeError))
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#4 {main}
+  thrown in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 65
+[22-Sep-2020 10:02:08 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to App\Exceptions\Handler::handleApiException() must be an instance of App\Exceptions\Exception, instance of TypeError given, called in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 55 and defined in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php:65
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php(55): App\Exceptions\Handler->handleApiException(Object(Illuminate\Http\Request), Object(TypeError))
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#4 {main}
+  thrown in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 65
+[22-Sep-2020 10:05:11 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to App\Exceptions\Handler::handleApiException() must be an instance of App\Exceptions\Exception, instance of TypeError given, called in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 55 and defined in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php:65
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php(55): App\Exceptions\Handler->handleApiException(Object(Illuminate\Http\Request), Object(TypeError))
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#4 {main}
+  thrown in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 65
+[22-Sep-2020 10:06:08 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to App\Exceptions\Handler::handleApiException() must be an instance of App\Exceptions\Exception, instance of TypeError given, called in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 55 and defined in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php:65
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php(55): App\Exceptions\Handler->handleApiException(Object(Illuminate\Http\Request), Object(TypeError))
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#4 {main}
+  thrown in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 65
+[22-Sep-2020 10:06:30 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function send() on string in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:119
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#2 {main}
+  thrown in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 119
+[22-Sep-2020 10:07:04 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function send() on string in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:119
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#2 {main}
+  thrown in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 119
+[22-Sep-2020 10:08:10 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function send() on string in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:119
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#2 {main}
+  thrown in /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 119
+[22-Sep-2020 10:10:38 Africa/Lagos] PHP Fatal error:  Declaration of App\Exceptions\Handler::render($request, App\Exceptions\Exception $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::render($request, Throwable $e) in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 9
+[22-Sep-2020 10:11:17 Africa/Lagos] PHP Fatal error:  Declaration of App\Exceptions\Handler::render($request, App\Exceptions\Exception $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::render($request, Throwable $e) in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 9
+[22-Sep-2020 10:18:20 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to App\Exceptions\Handler::handleApiException() must be an instance of App\Exceptions\Exception, instance of TypeError given, called in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 55 and defined in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php:65
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php(55): App\Exceptions\Handler->handleApiException(Object(Illuminate\Http\Request), Object(TypeError))
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#4 {main}
+  thrown in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 65
+[22-Sep-2020 10:18:36 Africa/Lagos] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to App\Exceptions\Handler::handleApiException() must be an instance of App\Exceptions\Exception, instance of TypeError given, called in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 55 and defined in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php:65
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php(55): App\Exceptions\Handler->handleApiException(Object(Illuminate\Http\Request), Object(TypeError))
+#1 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(TypeError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(TypeError))
+#4 {main}
+  thrown in /home/zomwakzn/Varspay.com/app/Exceptions/Handler.php on line 65
+[22-Sep-2020 11:07:37 Africa/Lagos] PHP Fatal error:  Cannot make non static method Illuminate\Http\Resources\Json\JsonResource::with() static in class App\Http\Resources\BankCollectionResource in /home/zomwakzn/Varspay.com/app/Http/Resources/BankCollectionResource.php on line 7
+[29-Sep-2020 14:39:42 Africa/Lagos] PHP Warning:  Uncaught ErrorException: require_once(../app/config.php): failed to open stream: No such file or directory in /home/zomwakzn/Varspay.com/resources/views/errors/404.php:2
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/resources/views/errors/404.php(2): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/zomwakzn/...', 2, Array)
+#1 /home/zomwakzn/Varspay.com/resources/views/errors/404.php(2): require_once()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(41): include('/home/zomwakzn/...')
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(19): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/zomwakzn/...', Array)
+#4 /home/zomwakzn/Varspay.com/vendor/facade/ignition/src/Views/Engines/PhpEngine.php(25): Illuminate\View\Engines\PhpEngine->get('/home/zomwakzn/...', Array)
+#5 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\Ignition\Vi in /home/zomwakzn/Varspay.com/resources/views/errors/404.php on line 2
+[29-Sep-2020 14:39:42 Africa/Lagos] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required '../app/config.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/resources/views/errors/404.php on line 2
+[29-Sep-2020 14:43:27 Africa/Lagos] PHP Warning:  Uncaught ErrorException: require_once(../app/config.php): failed to open stream: No such file or directory in /home/zomwakzn/Varspay.com/storage/framework/views/4cd2c135127a191c4cb4cf683ca5bd9f4e965283.php:2
+Stack trace:
+#0 /home/zomwakzn/Varspay.com/storage/framework/views/4cd2c135127a191c4cb4cf683ca5bd9f4e965283.php(2): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/zomwakzn/...', 2, Array)
+#1 /home/zomwakzn/Varspay.com/storage/framework/views/4cd2c135127a191c4cb4cf683ca5bd9f4e965283.php(2): require_once()
+#2 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(41): include('/home/zomwakzn/...')
+#3 /home/zomwakzn/Varspay.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/zomwakzn/...', Array)
+#4 /home/zomwakzn/Varspay.com/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\View\Engines\CompilerEngine->get('/home/z in /home/zomwakzn/Varspay.com/storage/framework/views/4cd2c135127a191c4cb4cf683ca5bd9f4e965283.php on line 2
+[29-Sep-2020 14:43:27 Africa/Lagos] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required '../app/config.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zomwakzn/Varspay.com/storage/framework/views/4cd2c135127a191c4cb4cf683ca5bd9f4e965283.php on line 2
+[27-Oct-2020 23:39:34 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:42
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 42
+[27-Oct-2020 23:40:25 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:42
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 42
+[27-Oct-2020 23:40:45 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:42
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 42
+[27-Oct-2020 23:41:25 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:42
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 42
+[27-Oct-2020 23:42:10 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:42
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 42
+[27-Oct-2020 23:43:42 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:42
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 42
+[27-Oct-2020 23:44:06 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:44
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 44
+[27-Oct-2020 23:49:03 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:44
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 44
+[27-Oct-2020 23:49:26 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:58
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Error))
+#1 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Error))
+#2 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#3 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 58
+[27-Oct-2020 23:53:03 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:46
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 46
+[27-Oct-2020 23:55:10 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[27-Oct-2020 23:55:27 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 02:32:54 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 02:32:54 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 02:32:55 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 02:32:55 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 02:33:20 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 02:35:02 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 02:35:10 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 02:35:17 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 02:35:23 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 02:35:26 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 05:46:00 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 05:47:50 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 05:47:50 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 05:47:51 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 05:47:51 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 05:50:01 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 05:50:02 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 05:50:02 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 05:50:03 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 05:54:49 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[28-Oct-2020 05:55:03 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method App\Exceptions\Handler::createUniversalUniqueIdentifier() in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php:48
+Stack trace:
+#0 /home/varszxpl/app.varspay.com/myapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/varszxpl/app.varspay.com/myapp/app/Exceptions/Handler.php on line 48
+[09-Nov-2020 14:59:09 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:09 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:11 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:11 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:14 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:14 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:16 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:16 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:19 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:19 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:21 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:21 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:22 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:24 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:24 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:26 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:26 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:31 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:31 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:36 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:36 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:40 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:41 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:46 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:46 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:50 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:50 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:56 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
+[09-Nov-2020 14:59:56 Africa/Lagos] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::epinSubmit() in /home/varszxpl/app.varspay.com/myapp/app/Http/Controllers/UserController.php on line 932
