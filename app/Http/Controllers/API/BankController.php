@@ -11,6 +11,7 @@ use App\Lib\Providus;
 use App\Models\ApiKey;
 use App\Models\User;
 use App\Lib\Rubies;
+use App\Models\Settings;
 use App\Http\Resources\BankCollectionResource;
 use App\Events\ApiSystemLogEvent;
 
